@@ -1,0 +1,32 @@
+=============== Dec 10, 2024 (CST) ===============
+16:33:06.826964 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:33:06.833710 db@open opening
+16:33:06.836372 version@stat F·[] S·0B[] Sc·[]
+16:33:06.838422 db@janitor F·2 G·0
+16:33:06.838484 db@open done T·4.68123ms
+16:33:06.839346 db@close closing
+16:33:06.839427 db@close done T·75.825µs
+=============== Dec 10, 2024 (CST) ===============
+16:38:22.277477 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:38:22.277690 version@stat F·[] S·0B[] Sc·[]
+16:38:22.277717 db@open opening
+16:38:22.278055 journal@recovery F·1
+16:38:22.279015 journal@recovery recovering @1
+16:38:22.283043 memdb@flush created L0@2 N·10 S·595B "H\xbfK..\xa1\xdf\xff,v3":"r\x00\x00..\xa1\xdf\xff,v5"
+16:38:22.284030 version@stat F·[1] S·595B[595B] Sc·[0.25]
+16:38:22.295029 db@janitor F·3 G·0
+16:38:22.295081 db@open done T·17.32546ms
+16:50:22.505653 db@close closing
+16:50:22.505783 db@close done T·126.788µs
+=============== Dec 10, 2024 (CST) ===============
+16:52:01.850314 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:52:01.850498 version@stat F·[1] S·595B[595B] Sc·[0.25]
+16:52:01.850518 db@open opening
+16:52:01.850560 journal@recovery F·1
+16:52:01.851828 journal@recovery recovering @3
+16:52:01.959267 memdb@flush created L0@5 N·400 S·20KiB "\x06Tw..v{\x9e,v410":"\xe2\xd8L..\a\xf28,v409"
+16:52:01.959760 version@stat F·[2] S·20KiB[20KiB] Sc·[0.50]
+16:52:02.015873 db@janitor F·4 G·0
+16:52:02.015926 db@open done T·165.392451ms
+17:31:05.757313 db@close closing
+17:31:05.804691 db@close done T·47.369257ms
